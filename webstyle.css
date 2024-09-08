@@ -1,0 +1,12 @@
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+li a{
+    display: inline;
+    text-decoration: none;
+    padding:20px;
+    background-color: aliceblue;
+}
