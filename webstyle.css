@@ -1,12 +1,48 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Barrio';
+    font-size: 300%;
+}
 
 ul{
-    text-decoration: none;
     list-style: none;
+    margin:0;
+    padding: 0;
+    width:100%;
+    font-family: 'Architects Daughter';
+    font-size: 1.25em;
+}
+
+li{
+    display: inline;
+    flex-grow: 1;
+    text-align: center;
+    padding: 16px 16px;
+    background-color: rgb(221, 229, 237);
+    border-right: solid white;
+    border-radius: 10px;
+    box-shadow: inset;
+}
+
+img{
+    max-width:500px;
+}
+
+#main{
+
 }
 
 li a{
-    display: inline;
     text-decoration: none;
-    padding:20px;
-    background-color: aliceblue;
+    color: rgb(35, 33, 33)
+}
+
+li:hover{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
