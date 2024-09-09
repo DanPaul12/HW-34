@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Personalized Songs Website</title>
+    <link rel="stylesheet" href="psongssyle.css">
+</head>
+<body>
+    <header>
+        <h1>Personalized Songs Form<h1>
+        <p>The personal is universal- find your truth</p>
+    </header>
+    <form>
+        <fieldset class="basicinfo">
+            <legend>Basic Info</legend>
+            <label for="name">Enter your name: </label>
+            <input type="text" id="name" value="name">
+
+            <label for="email">Enter your email: </label>
+            <input type="email" id="email" value="email">
+
+            <label for="duedate">When do you need the song?</label>
+            <input type="date" id="duedate" value="duedate">
+        </fieldset>
+        <fieldset class="songsubject">
+            <legend>Who is this song for?</legend>
+            <label for="husband">Boyfriend/Husband</label>
+            <input type="radio" id="husband" value="recipient" class="recipient">
+
+            <label for="wife">Girlfriend/Wife</label>
+            <input type="radio" id="wife" value="wife" class="recipient">
+
+            <label for="friend">Good, Solid Friend</label>
+            <input type="radio" id="friend" value="friend" class="recipient">
+
+            <label for="self">Self</label>
+            <input type="radio" id="self" value="self" class="recipient">
+
+            <label for="parent">Parent</label>
+            <input type="radio" id="parent" value="parent" class="recipient">
+
+            <label for="child">Child</label>
+            <input type="radio" id="child" value="child" class="recipient">
+        </fieldset>
+        <fieldset class="deeperinfo">
+            <legend>Deeper Info</legend>
+
+            <label for="insidejokes">Share some inside jokes you have with the subject: </label>
+            <textarea id="insidejokes"></textarea>
+
+            <label for="fondmemories">Share some fond memories you have with the subject: </label>
+            <textarea id="fondmemories"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>

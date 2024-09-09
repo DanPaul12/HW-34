@@ -15,15 +15,33 @@
             <li><a href="#">Store</a></li>
             <li><a href="#">Personalized Songs</a></li>
             <li><a href="#">Lyrics</a></li>
+            <li><a href="#">Tour</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
         </ul>
     </div>
     <div id="main">
-        <img src="dan laugh.jpg">
-        <img src="drum.jpg">
+        <img src="dan laugh.jpg" id="dan">
+        <img src="drum.jpg" id="drum">
     </div>
-    <footer>
+    <!--social links, would have stacked these in a flex column with the images 
+    but didnt have time-->
+    <footer class="footer">
+        
+        <div class="spotify">
+            <label for="spotifybutton">Pick a song from spotify</label>
+            <button type="button" id="spotifybutton">Listen</button>
+        </div>
+        <form id="form">    
+            <label for="subcribe" id="subcribe">Subscribe to our email list:</label>
+            <textarea id="subscribe"></textarea>
+
+            <button type="submit" id="subscribebutton">Submit</button>
+        </form>
+        <div class="donation">
+            <label for="donationbutton">Help us pay rent</label>
+            <button type="button" id="donationbutton">Donate</button>
+        </div>
+    <!--donation button and spotify player on left and right-->
     </footer>
 </body>
 </html>
