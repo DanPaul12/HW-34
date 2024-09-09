@@ -24,11 +24,15 @@ label{
     display: block;
     margin-top: 5px;
     margin-bottom: 10px;
+    font-family: "Architects Daughter";
 }
 
 div#sidebar{
-    display: block;
     grid-column: span 1;
     grid-row: span 1;
+    position: relative;
+    bottom: 200px;
 }
+
+
 
