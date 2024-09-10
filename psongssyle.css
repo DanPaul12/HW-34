@@ -32,6 +32,11 @@ div#sidebar{
     grid-row: span 1;
     position: relative;
     bottom: 200px;
+    text-align: center;
+    font-family: "Architects Daughter";
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: stretch;
 }
 
 
